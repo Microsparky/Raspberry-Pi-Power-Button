@@ -1,6 +1,6 @@
 # Raspberry Pi normie power button
 # script uses a button on pin 5 held for 3 seconds to halt the CPU,
-# The bootloader can then wake the CPU from halt when the button is pressed.k
+# The advantage of pin 5 is that the bootloader can also use this button to wake the CPU.
 
 import RPi.GPIO as GPIO
 import os
